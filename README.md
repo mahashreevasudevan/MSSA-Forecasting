@@ -63,7 +63,7 @@ Forecasted Dew Point & Relative Humidity
 - **Techniques**: MSSA, LRF, PCA
 
 ## Note:
-The dataset used in this project is confidential. Hence, the output and plots are not shown.
+The dataset used in this project is confidential. Hence, the dataset, the output and plots are not shown.
 
 
 
