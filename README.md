@@ -23,23 +23,7 @@ It uses the eigendecomposition of a covariance matrix and a linear recurrent for
 6. **Denormalization**: Final forecasted values are transformed back to their original scale.
 
 ## Model Pipeline:
-Excel Input (Dew Point, RH) 
-       ↓
-Normalization (Z-score)
-       ↓
-Time-Delayed Embedding
-       ↓
-Covariance Matrix → Eigendecomposition
-       ↓
-Principal Components (PCs)
-       ↓
-Reconstructed Components (RCs)
-       ↓
-Linear Recurrent Forecasting
-       ↓
-Denormalization
-       ↓
-Forecasted Dew Point & Relative Humidity
+Excel Input (Dew Point, RH) -> Normalization (Z-score) -> Time-Delayed Embedding -> Covariance Matrix → Eigendecomposition -> Principal Components (PCs) -> Reconstructed Components (RCs) -> Linear Recurrent Forecasting -> Denormalization -> Forecasted Dew Point & Relative Humidity
 
 ## Challenges Addressed:
 
